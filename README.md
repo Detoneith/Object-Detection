@@ -27,4 +27,4 @@ Before you begin, ensure you have met the following requirements:
 
 6. To stop the detection, click the "Stop Detection" button.
 
-![Alt text](https://raw.https://github.com/Detoneith/Object-Detection/main/screenshot/Capture.PNG)
+![]([https://raw.githubusercontent.com/screenshot/Capture.PNG)
