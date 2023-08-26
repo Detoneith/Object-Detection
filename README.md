@@ -27,4 +27,4 @@ Before you begin, ensure you have met the following requirements:
 
 6. To stop the detection, click the "Stop Detection" button.
 
-![Screenshot](screenshot/Capture.png)
+![Screenshot](screenshot/Capture.PNG)
