@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/Detoneith/Objects-detection.git
 
-2. Download the YOLO.weights, yolov3.cfg, and COCO.names files from the [official YOLO website](https://github.com/AlexeyAB/darknet) and place them in the project directory.
+2. Download the YOLO.weights, yolov3.cfg, and COCO.names files from the official [YOLO website](https://github.com/AlexeyAB/darknet) and place them in the project directory.
 
 3. Run the application: python main.py
 
