@@ -26,3 +26,5 @@ Before you begin, ensure you have met the following requirements:
 5. Detected objects will be highlighted in the video feed, and their labels will be displayed.
 
 6. To stop the detection, click the "Stop Detection" button.
+
+![](https://raw.https://github.com/Detoneith/Object-Detection/tree/main/screenshot/Capture.PNG)
