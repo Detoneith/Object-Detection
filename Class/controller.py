@@ -8,7 +8,7 @@ class ObjectDetectionController:
         self.view.stop_button['command'] = self.stop_detection
 
     def start_detection(self):
-        self.model = ObjectDetectionModel('yolov3.weights', 'yolov3.cfg', 'coco.names')
+        self.model = ObjectDetectionModel('Object-Detection\yolov3.weights', 'Object-Detection\yolov3.cfg', 'Object-Detection\coco.names')
         self.view.start_button['state'] = 'disabled'
         self.view.stop_button['state'] = 'normal'
         self.update_display_image()  # Call the method to update the display

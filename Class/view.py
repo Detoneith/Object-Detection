@@ -16,15 +16,15 @@ class ObjectDetectionView(ttk.Frame):
         self.display_label = ttk.Label(self.master)
         self.display_label.grid(row=0, column=0, columnspan=2, padx=10, pady=10, sticky="nsew")
 
-        self.start_button = ttk.Button(self.master, text="Start Detection", command=self.start_detection)
+        self.start_button = ttk.Button(self.master, text="Start Detection", bootstyle=SUCCESS, command=self.start_detection)
         self.start_button.grid(row=1, column=0, pady=10, padx=10, sticky="w")
         
-        self.stop_button = ttk.Button(self.master, text="Stop Detection", command=self.stop_detection, state="disabled")
+        self.stop_button = ttk.Button(self.master, text="Stop Detection", bootstyle=DANGER, command=self.stop_detection, state="disabled")
         self.stop_button.grid(row=1, column=1, pady=10, padx=10, sticky="e")
 
     def start_detection(self):
         global detector
-        detector = ObjectDetectionModel('yolov3.weights', 'yolov3.cfg', 'coco.names')
+        detector = ObjectDetectionModel('Object-Detection\yolov3.weights', 'Object-Detection\yolov3.cfg', 'Object-Detection\coco.names')
         self.update_display_image()
 
     def update_display_image(self):

@@ -7,7 +7,7 @@ from Class.controller import ObjectDetectionController
 def main():
     app = ttk.Window(title="Object Detection", themename="cyborg", size=[800, 600], resizable=[False,False])
     
-    model = ObjectDetectionModel('yolov3.weights', 'yolov3.cfg', 'coco.names')
+    model = ObjectDetectionModel('Object-Detection\yolov3.weights', 'Object-Detection\yolov3.cfg', 'Object-Detection\coco.names')
     view = ObjectDetectionView(app, model)
     controller = ObjectDetectionController(model, view)
 
