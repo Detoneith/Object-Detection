@@ -28,3 +28,10 @@ Before you begin, ensure you have met the following requirements:
 6. To stop the detection, click the "Stop Detection" button.
 
 ![Screenshot](screenshot/Capture.PNG)
+
+
+## Contributing
+Contributions are welcome! If you have any ideas, improvements, or issues, please open an issue or submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
