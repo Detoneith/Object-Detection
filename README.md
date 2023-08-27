@@ -6,7 +6,7 @@ This is a simple Python application that demonstrates object detection using YOL
 
 Before you begin, ensure you have met the following requirements:
 
-- Python 3.10.11: You can download it from [python.org](https://www.python.org/downloads/).
+- Python 3.10.x: You can download it from [python.org](https://www.python.org/downloads/).
 - OpenCV: Install using `pip install opencv-python`.
 - TtkBootstrap: Install using `pip install ttkbootstrap`.
 
